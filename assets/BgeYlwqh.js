@@ -1,0 +1,1 @@
+import{H as a,j as o,I as i}from"./DDPV8dZD.js";const n=a((e,r)=>{const t=o();if(t.isAuthenticated||t.initAuth(),e.meta.requiresAuth&&!t.isLoggedIn)return i("/login");if(e.path==="/login"&&t.isLoggedIn)return i("/dashboard")});export{n as default};
